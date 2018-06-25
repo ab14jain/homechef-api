@@ -1,0 +1,6 @@
+{
+    "name": "Homechef API on Heroku: Node.js",
+    "description": "A barebones Node.js API app using Express 4",
+    "repository": "https://github.com/ab14jain/homechef-api",    
+    "keywords": ["node", "express", "heroku"]    
+}
