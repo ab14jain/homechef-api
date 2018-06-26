@@ -27,14 +27,16 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/products', productRoutes);
-app.use('/user', userRoutes);
-
 app.get('/', (req, res, next) => {
     res.status(200).json({
         message: 'It works!'
     });
 });
+
+app.use('/products', productRoutes);
+app.use('/user', userRoutes);
+
+
 
 app.listen(port, function () {
     console.log("Express is listning at port: " + port);
