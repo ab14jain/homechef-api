@@ -12,7 +12,7 @@ const port = process.env.PORT || 2323;
 const app = express();
 
 
-app.use(morgan('dev'));
+//app.use(morgan('dev'));
 
 app.use(bodyParser.urlencoded({extended : false}));
 app.use(bodyParser.json());
